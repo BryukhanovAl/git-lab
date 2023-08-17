@@ -30,7 +30,7 @@
 1. Gitlab установлен
 ![giltlab-installed](img/zadanie1/01_01.png)
 2. Проект и репозиторий созданы
-![proj-repo](02_01.png)
+![proj-repo](img/zadanie1/02_01.png)
 3. gitlab-runner
 ![gitlab-runner](img/zadanie1/03_01.png)
 ---
