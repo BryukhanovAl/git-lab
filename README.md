@@ -33,6 +33,7 @@
 ![proj-repo](img/zadanie1/02_01.png)
 3. gitlab-runner
 ![gitlab-runner](img/zadanie1/03_01.png)
+![gitlab-runner-detail](img/zadanie1/03_01_02.png)
 ---
  
 #### Задание 2
