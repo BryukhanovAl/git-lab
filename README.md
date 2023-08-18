@@ -34,6 +34,7 @@
 3. gitlab-runner
 ![gitlab-runner](img/zadanie1/03_01.png)
 ![gitlab-runner-detail](img/zadanie1/03_01_02.png)
+
 ---
  
 #### Задание 2
@@ -49,6 +50,31 @@
 * скриншоты с успешно собранными сборками.
 
 #### Ответ на задание 2.
+
+1. Запушил
+![pushed-repo](img/zadanie2/02_01.png)
+2. Содержимое файла .gitlab-ci.yml:
+
+```yaml
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  image: golang:1.17
+  script: 
+   - go test .
+
+build:
+  stage: build
+  image: docker:latest
+  script:
+   - docker build .
+```
+
+Сборки:
+![sborki](img/zadanie2/02_02.png)
 
 ---
 
